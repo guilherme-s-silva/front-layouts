@@ -1,0 +1,93 @@
+body {
+    background-image: url(assets/background.jpg);
+    background-size: 100vw 100vh;
+    height: 100vh;
+    display: flexbox;
+}
+
+.card {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    background-image: url(assets/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: 350px 140px;
+    text-align: center;
+    width:350px;
+    font-family: 'Kumbh Sans', sans-serif;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    border-radius: 15px;
+    padding-top: 92px;
+}
+
+.card p{
+    font-size: 14px;
+    text-align: center;
+    color: #6B7082;
+    margin-bottom: 28px;
+}
+
+img {
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    margin-bottom: 19px;
+    box-sizing: border-box;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+}
+
+.user h1, span{
+    display: inline;
+    margin: 0;
+    padding-right: 9px;
+}
+
+.user h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #2E3349;
+}
+
+.user span {
+    font-size: 18px;
+    font-size: 18px;
+    color: #6B7082;
+}
+
+
+hr {
+    color: #E8E9EC;
+    margin: 0px;
+    height: 1px;
+    left: nullpx;
+    top: nullpx;
+    border-radius: 0px;
+}
+.followers {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.followers h1 {
+    display: flexbox;
+    font-size: 18px;
+    text-align: center;
+    color: #2E3349;
+    margin-bottom: 9px;
+    margin-top: 0px;
+}
+
+.followers p {
+    display: flexbox;
+    margin-bottom: 0px;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+}
